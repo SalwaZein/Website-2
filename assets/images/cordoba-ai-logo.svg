@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cordobaGradient" x1="40" y1="30" x2="160" y2="170" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#34D1BF" />
+      <stop offset="100%" stop-color="#C6A770" />
+    </linearGradient>
+    <radialGradient id="cordobaGlow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(100 100) rotate(90) scale(90)">
+      <stop offset="0%" stop-color="#34D1BF" stop-opacity="0.6" />
+      <stop offset="60%" stop-color="#34D1BF" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#0A0F1F" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect x="10" y="10" width="180" height="180" rx="48" fill="#0A0F1F" stroke="rgba(233,220,201,0.35)" stroke-width="2" />
+  <circle cx="100" cy="100" r="90" fill="url(#cordobaGlow)" />
+  <path d="M100 40C123 40 143 53 152 72L126 83C121 74 111 68 100 68C81 68 66 83 66 102C66 121 81 136 100 136C111 136 121 130 126 121L152 132C143 151 123 164 100 164C69 164 44 139 44 108C44 77 69 52 100 52Z" fill="url(#cordobaGradient)" />
+  <path d="M156 100C156 128 135 152 107 156V136C120 132 130 117 130 100C130 83 120 68 107 64V44C135 48 156 72 156 100Z" fill="#E9DCC9" fill-opacity="0.35" />
+  <path d="M44 100C44 72 65 48 93 44V64C80 68 70 83 70 100C70 117 80 132 93 136V156C65 152 44 128 44 100Z" fill="#E9DCC9" fill-opacity="0.2" />
+  <circle cx="100" cy="100" r="14" fill="#0A0F1F" stroke="url(#cordobaGradient)" stroke-width="4" />
+  <circle cx="100" cy="100" r="6" fill="#E9DCC9" />
+</svg>

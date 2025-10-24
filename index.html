@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cordoba AI — The Living Intelligence</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <canvas id="particle-canvas" aria-hidden="true"></canvas>
+  <header class="hero" data-parallax>
+    <nav class="navbar">
+      <div class="logo-mark">
+        <img src="assets/images/cordoba-ai-logo.svg" alt="Cordoba AI logo" />
+        <span>Cordoba AI</span>
+      </div>
+      <div class="nav-links">
+        <a href="#craft">Craft</a>
+        <a href="#mindset">Mindset</a>
+        <a href="#process">Process</a>
+        <a href="#cta">Contact</a>
+      </div>
+      <a class="nav-cta" href="#cta">Start Project</a>
+    </nav>
+    <div class="hero-content">
+      <div class="logo-orbit" aria-hidden="true">
+        <div class="logo-core">
+          <img src="assets/images/cordoba-ai-logo.svg" alt="Cordoba AI logo" />
+        </div>
+        <svg class="logo-constellation" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <radialGradient id="glowGradient" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#34D1BF" stop-opacity="0.9" />
+              <stop offset="45%" stop-color="#34D1BF" stop-opacity="0.3" />
+              <stop offset="100%" stop-color="#0A0F1F" stop-opacity="0" />
+            </radialGradient>
+            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#34D1BF" />
+              <stop offset="100%" stop-color="#C6A770" />
+            </linearGradient>
+          </defs>
+          <circle cx="180" cy="180" r="150" fill="url(#glowGradient)" />
+          <g class="constellation-lines">
+            <path d="M60 180 Q180 60 300 180" stroke="url(#lineGradient)" stroke-width="1.5" fill="none" />
+            <path d="M180 60 Q260 140 180 320" stroke="url(#lineGradient)" stroke-width="1.5" fill="none" />
+            <path d="M70 120 Q180 200 290 120" stroke="url(#lineGradient)" stroke-width="1.5" fill="none" />
+            <path d="M120 300 Q180 220 240 300" stroke="url(#lineGradient)" stroke-width="1.2" fill="none" />
+            <path d="M70 250 Q180 190 310 210" stroke="url(#lineGradient)" stroke-width="1.2" fill="none" />
+          </g>
+        </svg>
+      </div>
+      <div class="hero-text">
+        <p class="hero-kicker">The Living Intelligence</p>
+        <h1>Intelligence, beautifully built.</h1>
+        <p class="hero-sub">From Al-Andalus to AI — we turn ideas into intelligent digital products, fast.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#cta">Build With Us</a>
+          <a class="btn ghost" href="#process">See How It Works</a>
+        </div>
+        <p class="hero-message">We build digital products faster than ever — powered by AI that thinks, designs, and delivers.</p>
+      </div>
+    </div>
+    <div class="hero-scroll" aria-hidden="true">
+      <span>Scroll</span>
+      <span class="scroll-line"></span>
+    </div>
+  </header>
+
+  <main>
+    <section id="craft" class="section craft" data-parallax>
+      <div class="section-heading">
+        <h2>AI Product Acceleration.</h2>
+      </div>
+      <div class="craft-content">
+        <div class="craft-visual">
+          <div class="geometry morphing">
+            <div class="geometry-layer layer-1"></div>
+            <div class="geometry-layer layer-2"></div>
+            <div class="geometry-layer layer-3"></div>
+            <div class="geometry-layer layer-4"></div>
+          </div>
+          <div class="interface-cards">
+            <div class="interface-card">
+              <span class="card-pill">Prototype</span>
+              <h3>Concept Flow</h3>
+              <p>Generative wireframes and journeys delivered in hours.</p>
+            </div>
+            <div class="interface-card">
+              <span class="card-pill accent">Launch</span>
+              <h3>Production Ready</h3>
+              <p>Code, QA, and deployment orchestrated by intelligent agents.</p>
+            </div>
+          </div>
+        </div>
+        <div class="craft-copy">
+          <p>We use AI agents to design, code, and deploy complete products in record time — from prototype to production.</p>
+          <p>Our intelligence learns your vision, builds your product, and delivers it beautifully.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="mindset" class="section mindset" data-parallax>
+      <div class="mindset-split">
+        <div class="mindset-heritage" aria-hidden="true">
+          <div class="mosaic-pattern"></div>
+        </div>
+        <div class="mindset-future" aria-hidden="true">
+          <div class="mesh-grid"></div>
+        </div>
+        <div class="mindset-copy">
+          <h2>The Cordoba Mindset</h2>
+          <p>Where logic meets art. Where time meets innovation. This is the Cordoba way.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section process" data-parallax>
+      <h2>Our Process</h2>
+      <div class="process-steps">
+        <article class="process-step">
+          <span class="step-number">1</span>
+          <h3>Think</h3>
+          <p>Understand your product’s core intelligence.</p>
+        </article>
+        <article class="process-step">
+          <span class="step-number">2</span>
+          <h3>Build</h3>
+          <p>AI generates, refines, and prototypes.</p>
+        </article>
+        <article class="process-step">
+          <span class="step-number">3</span>
+          <h3>Deliver</h3>
+          <p>We launch your product in weeks, not months.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section quote" data-parallax>
+      <div class="quote-wrap">
+        <div class="quote-logo-glow" aria-hidden="true">
+          <img src="assets/images/cordoba-ai-logo.svg" alt="Cordoba AI logo" />
+        </div>
+        <blockquote>
+          “Technology becomes art when it understands purpose.”
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="cta" class="section final-cta" data-parallax>
+      <div class="cta-content">
+        <h2>Your product. Reimagined by AI.</h2>
+        <div class="cta-actions">
+          <a class="btn primary" href="mailto:hello@cordoba.ai">Start Project</a>
+          <a class="btn ghost" href="mailto:team@cordoba.ai">Talk to Our Team</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <img src="assets/images/cordoba-ai-logo.svg" alt="Cordoba AI logo" />
+      <div>
+        <span class="footer-title">Cordoba AI</span>
+        <span class="footer-tagline">From Al-Andalus to AI — Turning knowledge into outcomes.</span>
+      </div>
+    </div>
+    <div class="footer-links">
+      <a href="#">Home</a>
+      <a href="#craft">About</a>
+      <a href="#process">Service</a>
+      <a href="#cta">Contact</a>
+    </div>
+    <div class="footer-socials">
+      <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="https://www.x.com" target="_blank" rel="noreferrer">X</a>
+      <a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
